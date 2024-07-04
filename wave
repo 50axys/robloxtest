@@ -412,37 +412,18 @@ UIAspectRatioConstraint_20.Parent = ImageButton
 
 -- Scripts:
 
-local function RSJISO_fake_script() -- TextButton.LocalScript 
+local function YJYYNF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local TweenService = game:GetService("TweenService")
 	local guiElement = script.Parent.Parent.Parent.Parent.Parent.Main
 	
-	local btn = script.Parent
-	
-	local tweenInfo = TweenInfo.new(
-		.2,                             -- Temps du tween (en secondes)
-		Enum.EasingStyle.Quad,         -- Style de l'interpolation
-		Enum.EasingDirection.Out,      -- Direction de l'interpolation
-		0,                             -- Nombre de répétitions
-		false,                         -- Inverser après chaque répétition
-		0                              -- Délai avant de commencer
-	)
-	
-	local goal = {}
-	goal.Size = UDim2.new(0.005, 0,0.006, 0) -- Exemple: déplacer le frame au centre de l'écran
-	
-	local tween = TweenService:Create(guiElement, tweenInfo, goal)
-	
-	btn.MouseButton1Click:Connect(function()
-		tween:Play()
-		wait(0.2)
+	script.Parent.MouseButton1Click:Connect(function()
 		guiElement.Visible = not guiElement.Visible
-		guiElement.Size = UDim2.new(0.331, 0,0.351, 0)
 	end)
 end
-coroutine.wrap(RSJISO_fake_script)()
-local function LCVKJ_fake_script() -- script.LocalScript 
+coroutine.wrap(YJYYNF_fake_script)()
+local function QGHMOUQ_fake_script() -- script.LocalScript 
 	local script = Instance.new('LocalScript', script)
 
 	local btn = script.Parent
@@ -452,8 +433,8 @@ local function LCVKJ_fake_script() -- script.LocalScript
 		script.Parent.Parent.Parent.main.hub.Visible = false
 	end)
 end
-coroutine.wrap(LCVKJ_fake_script)()
-local function HRDAPS_fake_script() -- folder.LocalScript 
+coroutine.wrap(QGHMOUQ_fake_script)()
+local function LEKD_fake_script() -- folder.LocalScript 
 	local script = Instance.new('LocalScript', folder)
 
 	local btn = script.Parent
@@ -463,38 +444,38 @@ local function HRDAPS_fake_script() -- folder.LocalScript
 		script.Parent.Parent.Parent.main.hub.Visible = true
 	end)
 end
-coroutine.wrap(HRDAPS_fake_script)()
-local function CUESC_fake_script() -- mm2.LocalScript 
+coroutine.wrap(LEKD_fake_script)()
+local function WEJDCOM_fake_script() -- mm2.LocalScript 
 	local script = Instance.new('LocalScript', mm2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
 	end)
 end
-coroutine.wrap(CUESC_fake_script)()
-local function QEIZVG_fake_script() -- cam.LocalScript 
+coroutine.wrap(WEJDCOM_fake_script)()
+local function WOGW_fake_script() -- cam.LocalScript 
 	local script = Instance.new('LocalScript', cam)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sunshine%20Aimlock.lua", true))()
 	end)
 end
-coroutine.wrap(QEIZVG_fake_script)()
-local function KTJMAHK_fake_script() -- iy.LocalScript 
+coroutine.wrap(WOGW_fake_script)()
+local function XRAWYJ_fake_script() -- iy.LocalScript 
 	local script = Instance.new('LocalScript', iy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(KTJMAHK_fake_script)()
-local function RRPPXO_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(XRAWYJ_fake_script)()
+local function KLGB_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Main.Visible = not script.Parent.Parent.Main.Visible
-		script.Parent.Parent.Main.Size = UDim2.new(0.331, 0,0.351, 0)
 	end)
 end
-coroutine.wrap(RRPPXO_fake_script)()
+coroutine.wrap(KLGB_fake_script)()
+
 
