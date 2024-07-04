@@ -412,7 +412,7 @@ UIAspectRatioConstraint_20.Parent = ImageButton
 
 -- Scripts:
 
-local function VNAQQR_fake_script() -- TextButton.LocalScript 
+local function YOGELQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -440,8 +440,8 @@ local function VNAQQR_fake_script() -- TextButton.LocalScript
 		guiElement.Visible = false
 	end)
 end
-coroutine.wrap(VNAQQR_fake_script)()
-local function FELS_fake_script() -- script.LocalScript 
+coroutine.wrap(YOGELQ_fake_script)()
+local function JIZLRJ_fake_script() -- script.LocalScript 
 	local script = Instance.new('LocalScript', script)
 
 	local btn = script.Parent
@@ -451,8 +451,8 @@ local function FELS_fake_script() -- script.LocalScript
 		script.Parent.Parent.Parent.main.hub.Visible = false
 	end)
 end
-coroutine.wrap(FELS_fake_script)()
-local function ABBAJ_fake_script() -- folder.LocalScript 
+coroutine.wrap(JIZLRJ_fake_script)()
+local function RHZF_fake_script() -- folder.LocalScript 
 	local script = Instance.new('LocalScript', folder)
 
 	local btn = script.Parent
@@ -462,55 +462,37 @@ local function ABBAJ_fake_script() -- folder.LocalScript
 		script.Parent.Parent.Parent.main.hub.Visible = true
 	end)
 end
-coroutine.wrap(ABBAJ_fake_script)()
-local function MJELKLH_fake_script() -- mm2.LocalScript 
+coroutine.wrap(RHZF_fake_script)()
+local function XBBOIO_fake_script() -- mm2.LocalScript 
 	local script = Instance.new('LocalScript', mm2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
 	end)
 end
-coroutine.wrap(MJELKLH_fake_script)()
-local function ANWVFU_fake_script() -- cam.LocalScript 
+coroutine.wrap(XBBOIO_fake_script)()
+local function ZOPNTSZ_fake_script() -- cam.LocalScript 
 	local script = Instance.new('LocalScript', cam)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		getgenv().Silent = {
-			Settings = {
-				Enabled = true,
-				AimPart = "UpperTorso",
-				Prediction = 0.159748979134,
-				WallCheck = true,
-				Visualize = true,
-				AutoPrediction = true,
-			},
-			FOV = {
-				Enabled = true,
-				Size = 30,
-				Filled = false,
-				Thickness = 0.66,
-				Transparency = 0.9,
-				Color = Color3.fromRGB(255,255,255),
-			},
-		}
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x/main/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sunshine%20Aimlock.lua", true))()
 	end)
 end
-coroutine.wrap(ANWVFU_fake_script)()
-local function WCAIX_fake_script() -- iy.LocalScript 
+coroutine.wrap(ZOPNTSZ_fake_script)()
+local function IWTA_fake_script() -- iy.LocalScript 
 	local script = Instance.new('LocalScript', iy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(WCAIX_fake_script)()
-local function IDLQWQ_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(IWTA_fake_script)()
+local function BQRHK_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Main.Visible = not script.Parent.Parent.Main.Visible
 	end)
 end
-coroutine.wrap(IDLQWQ_fake_script)()
+coroutine.wrap(BQRHK_fake_script)()
 
