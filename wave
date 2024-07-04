@@ -495,5 +495,3 @@ local function CRVFGZ_fake_script() -- ImageButton.LocalScript
 	end)
 end
 coroutine.wrap(CRVFGZ_fake_script)()
-
-
