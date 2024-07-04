@@ -412,7 +412,7 @@ UIAspectRatioConstraint_20.Parent = ImageButton
 
 -- Scripts:
 
-local function YOGELQ_fake_script() -- TextButton.LocalScript 
+local function RPDYHTM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -437,11 +437,11 @@ local function YOGELQ_fake_script() -- TextButton.LocalScript
 	btn.MouseButton1Click:Connect(function()
 		tween:Play()
 		wait(0.2)
-		guiElement.Visible = false
+		guiElement.Visible = not guiElement.Visible
 	end)
 end
-coroutine.wrap(YOGELQ_fake_script)()
-local function JIZLRJ_fake_script() -- script.LocalScript 
+coroutine.wrap(RPDYHTM_fake_script)()
+local function UNMLQFG_fake_script() -- script.LocalScript 
 	local script = Instance.new('LocalScript', script)
 
 	local btn = script.Parent
@@ -451,8 +451,8 @@ local function JIZLRJ_fake_script() -- script.LocalScript
 		script.Parent.Parent.Parent.main.hub.Visible = false
 	end)
 end
-coroutine.wrap(JIZLRJ_fake_script)()
-local function RHZF_fake_script() -- folder.LocalScript 
+coroutine.wrap(UNMLQFG_fake_script)()
+local function HMTKV_fake_script() -- folder.LocalScript 
 	local script = Instance.new('LocalScript', folder)
 
 	local btn = script.Parent
@@ -462,37 +462,38 @@ local function RHZF_fake_script() -- folder.LocalScript
 		script.Parent.Parent.Parent.main.hub.Visible = true
 	end)
 end
-coroutine.wrap(RHZF_fake_script)()
-local function XBBOIO_fake_script() -- mm2.LocalScript 
+coroutine.wrap(HMTKV_fake_script)()
+local function DMMIUE_fake_script() -- mm2.LocalScript 
 	local script = Instance.new('LocalScript', mm2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
 	end)
 end
-coroutine.wrap(XBBOIO_fake_script)()
-local function ZOPNTSZ_fake_script() -- cam.LocalScript 
+coroutine.wrap(DMMIUE_fake_script)()
+local function UGJW_fake_script() -- cam.LocalScript 
 	local script = Instance.new('LocalScript', cam)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sunshine%20Aimlock.lua", true))()
 	end)
 end
-coroutine.wrap(ZOPNTSZ_fake_script)()
-local function IWTA_fake_script() -- iy.LocalScript 
+coroutine.wrap(UGJW_fake_script)()
+local function GDLXB_fake_script() -- iy.LocalScript 
 	local script = Instance.new('LocalScript', iy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(IWTA_fake_script)()
-local function BQRHK_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(GDLXB_fake_script)()
+local function CRVFGZ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Main.Visible = not script.Parent.Parent.Main.Visible
 	end)
 end
-coroutine.wrap(BQRHK_fake_script)()
+coroutine.wrap(CRVFGZ_fake_script)()
+
 
