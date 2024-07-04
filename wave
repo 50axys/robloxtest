@@ -22,7 +22,43 @@ local ImageLabel_3 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
 local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local left = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local script = Instance.new("ImageButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local folder = Instance.new("ImageButton")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local settings = Instance.new("ImageButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local main = Instance.new("Frame")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local script_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIPadding_2 = Instance.new("UIPadding")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+local hub = Instance.new("Frame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local mm2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIPadding_3 = Instance.new("UIPadding")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+local cam = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIPadding_4 = Instance.new("UIPadding")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local iy = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIPadding_5 = Instance.new("UIPadding")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local Frame = Instance.new("Frame")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -147,5 +183,334 @@ ImageLabel_4.Image = "rbxassetid://13846126055"
 UIAspectRatioConstraint_7.Parent = ImageLabel_4
 UIAspectRatioConstraint_7.AspectRatio = 0.991
 
+TextButton.Parent = ImageLabel_4
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, 0, 1, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
 UIAspectRatioConstraint_8.Parent = top
 UIAspectRatioConstraint_8.AspectRatio = 9.968
+
+left.Name = "left"
+left.Parent = Main
+left.AnchorPoint = Vector2.new(0, 0.5)
+left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+left.BackgroundTransparency = 1.000
+left.BorderColor3 = Color3.fromRGB(0, 0, 0)
+left.BorderSizePixel = 0
+left.Position = UDim2.new(0.00948419049, 0, 0.579770863, 0)
+left.Size = UDim2.new(0.114356913, 0, 0.625329792, 0)
+
+UIListLayout.Parent = left
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 20)
+
+script.Name = "script"
+script.Parent = left
+script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script.BackgroundTransparency = 1.000
+script.BorderColor3 = Color3.fromRGB(0, 0, 0)
+script.BorderSizePixel = 0
+script.Size = UDim2.new(0.665000021, 0, 0.150999993, 0)
+script.Image = "rbxassetid://14897612715"
+
+UIAspectRatioConstraint_9.Parent = script
+UIAspectRatioConstraint_9.AspectRatio = 1.162
+
+folder.Name = "folder"
+folder.Parent = left
+folder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+folder.BackgroundTransparency = 1.000
+folder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+folder.BorderSizePixel = 0
+folder.Size = UDim2.new(0.665000021, 0, 0.150999993, 0)
+folder.Image = "rbxassetid://13864077088"
+
+UIAspectRatioConstraint_10.Parent = folder
+UIAspectRatioConstraint_10.AspectRatio = 1.162
+
+settings.Name = "settings"
+settings.Parent = left
+settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settings.BackgroundTransparency = 1.000
+settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+settings.BorderSizePixel = 0
+settings.Size = UDim2.new(0.665000021, 0, 0.150999993, 0)
+settings.Image = "rbxassetid://14897656651"
+
+UIAspectRatioConstraint_11.Parent = settings
+UIAspectRatioConstraint_11.AspectRatio = 1.162
+
+UIAspectRatioConstraint_12.Parent = left
+UIAspectRatioConstraint_12.AspectRatio = 0.281
+
+main.Name = "main"
+main.Parent = Main
+main.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.130708665, 0, 0.267105937, 0)
+main.Size = UDim2.new(0.818897665, 0, 0.625329792, 0)
+
+UIAspectRatioConstraint_13.Parent = main
+UIAspectRatioConstraint_13.AspectRatio = 2.194
+
+script_2.Name = "script"
+script_2.Parent = main
+script_2.AnchorPoint = Vector2.new(0.5, 0.5)
+script_2.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+script_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+script_2.BorderSizePixel = 0
+script_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+script_2.Size = UDim2.new(1, 0, 1, 0)
+
+UIAspectRatioConstraint_14.Parent = script_2
+UIAspectRatioConstraint_14.AspectRatio = 2.194
+
+TextLabel_2.Parent = script_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0179875307, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0.965702951, 0, 0.210970476, 0)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "You can't execute script right now :(, check the script hub tho"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_2.Parent = TextLabel_2
+UIPadding_2.PaddingBottom = UDim.new(0.300000012, 0)
+UIPadding_2.PaddingTop = UDim.new(0.300000012, 0)
+
+UIAspectRatioConstraint_15.Parent = TextLabel_2
+UIAspectRatioConstraint_15.AspectRatio = 10.043
+
+hub.Name = "hub"
+hub.Parent = main
+hub.AnchorPoint = Vector2.new(0.5, 0.5)
+hub.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+hub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hub.BorderSizePixel = 0
+hub.Position = UDim2.new(0.515936852, 0, 0.539196253, 0)
+hub.Size = UDim2.new(0.968126237, 0, 0.921607435, 0)
+hub.Visible = false
+
+UIListLayout_2.Parent = hub
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 10)
+
+mm2.Name = "mm2"
+mm2.Parent = hub
+mm2.BackgroundColor3 = Color3.fromRGB(71, 181, 255)
+mm2.BackgroundTransparency = 0.100
+mm2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mm2.BorderSizePixel = 0
+mm2.Size = UDim2.new(0.340594053, 0, 0.22522524, 0)
+mm2.Font = Enum.Font.FredokaOne
+mm2.Text = "Murder Mystery (key is hlvipcomingsoon)"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextScaled = true
+mm2.TextSize = 30.000
+mm2.TextWrapped = true
+
+UICorner_2.Parent = mm2
+
+UIPadding_3.Parent = mm2
+UIPadding_3.PaddingBottom = UDim.new(0.239999995, 0)
+UIPadding_3.PaddingLeft = UDim.new(0.00581395347, 0)
+UIPadding_3.PaddingRight = UDim.new(0.00581395347, 0)
+UIPadding_3.PaddingTop = UDim.new(0.239999995, 0)
+
+UIAspectRatioConstraint_16.Parent = mm2
+UIAspectRatioConstraint_16.AspectRatio = 3.440
+
+cam.Name = "cam"
+cam.Parent = hub
+cam.BackgroundColor3 = Color3.fromRGB(71, 181, 255)
+cam.BackgroundTransparency = 0.100
+cam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cam.BorderSizePixel = 0
+cam.Size = UDim2.new(0.340594053, 0, 0.22522524, 0)
+cam.Font = Enum.Font.FredokaOne
+cam.Text = "Camlock"
+cam.TextColor3 = Color3.fromRGB(255, 255, 255)
+cam.TextScaled = true
+cam.TextSize = 30.000
+cam.TextWrapped = true
+
+UICorner_3.Parent = cam
+
+UIPadding_4.Parent = cam
+UIPadding_4.PaddingBottom = UDim.new(0.00999999978, 0)
+UIPadding_4.PaddingLeft = UDim.new(0.0145348841, 0)
+UIPadding_4.PaddingRight = UDim.new(0.0145348841, 0)
+UIPadding_4.PaddingTop = UDim.new(0.00999999978, 0)
+
+UIAspectRatioConstraint_17.Parent = cam
+UIAspectRatioConstraint_17.AspectRatio = 3.440
+
+iy.Name = "iy"
+iy.Parent = hub
+iy.BackgroundColor3 = Color3.fromRGB(71, 181, 255)
+iy.BackgroundTransparency = 0.100
+iy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+iy.BorderSizePixel = 0
+iy.Position = UDim2.new(0.0144513045, 0, 0, 0)
+iy.Size = UDim2.new(0.340594053, 0, 0.22522524, 0)
+iy.Font = Enum.Font.FredokaOne
+iy.Text = "Infinite yield"
+iy.TextColor3 = Color3.fromRGB(255, 255, 255)
+iy.TextScaled = true
+iy.TextSize = 30.000
+iy.TextWrapped = true
+
+UICorner_4.Parent = iy
+
+UIPadding_5.Parent = iy
+UIPadding_5.PaddingBottom = UDim.new(0.170000002, 0)
+UIPadding_5.PaddingLeft = UDim.new(0.0116279069, 0)
+UIPadding_5.PaddingRight = UDim.new(0.0116279069, 0)
+UIPadding_5.PaddingTop = UDim.new(0.170000002, 0)
+
+UIAspectRatioConstraint_18.Parent = iy
+UIAspectRatioConstraint_18.AspectRatio = 3.440
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.130708665, 0, 0.204892606, 0)
+Frame.Size = UDim2.new(0.164632007, 0, 0.0622133426, 0)
+
+UIAspectRatioConstraint_19.Parent = Frame
+UIAspectRatioConstraint_19.AspectRatio = 4.434
+
+ImageButton.Parent = ScreenGui
+ImageButton.AnchorPoint = Vector2.new(0, 0.5)
+ImageButton.BackgroundColor3 = Color3.fromRGB(66, 166, 233)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0, 0, 0.5, 0)
+ImageButton.Size = UDim2.new(0.0333333351, 0, 0.0593141802, 0)
+ImageButton.Image = "rbxassetid://14897612715"
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_5.Parent = ImageButton
+
+UIAspectRatioConstraint_20.Parent = ImageButton
+
+-- Scripts:
+
+local function VNAQQR_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local TweenService = game:GetService("TweenService")
+	local guiElement = script.Parent.Parent.Parent.Parent.Parent.Main
+	
+	local btn = script.Parent
+	
+	local tweenInfo = TweenInfo.new(
+		.2,                             -- Temps du tween (en secondes)
+		Enum.EasingStyle.Quad,         -- Style de l'interpolation
+		Enum.EasingDirection.Out,      -- Direction de l'interpolation
+		0,                             -- Nombre de répétitions
+		false,                         -- Inverser après chaque répétition
+		0                              -- Délai avant de commencer
+	)
+	
+	local goal = {}
+	goal.Size = UDim2.new(0.005, 0,0.006, 0) -- Exemple: déplacer le frame au centre de l'écran
+	
+	local tween = TweenService:Create(guiElement, tweenInfo, goal)
+	
+	btn.MouseButton1Click:Connect(function()
+		tween:Play()
+		wait(0.2)
+		guiElement.Visible = false
+	end)
+end
+coroutine.wrap(VNAQQR_fake_script)()
+local function FELS_fake_script() -- script.LocalScript 
+	local script = Instance.new('LocalScript', script)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.main.script.Visible = true
+		script.Parent.Parent.Parent.main.hub.Visible = false
+	end)
+end
+coroutine.wrap(FELS_fake_script)()
+local function ABBAJ_fake_script() -- folder.LocalScript 
+	local script = Instance.new('LocalScript', folder)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.main.script.Visible = false
+		script.Parent.Parent.Parent.main.hub.Visible = true
+	end)
+end
+coroutine.wrap(ABBAJ_fake_script)()
+local function MJELKLH_fake_script() -- mm2.LocalScript 
+	local script = Instance.new('LocalScript', mm2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
+	end)
+end
+coroutine.wrap(MJELKLH_fake_script)()
+local function ANWVFU_fake_script() -- cam.LocalScript 
+	local script = Instance.new('LocalScript', cam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		getgenv().Silent = {
+			Settings = {
+				Enabled = true,
+				AimPart = "UpperTorso",
+				Prediction = 0.159748979134,
+				WallCheck = true,
+				Visualize = true,
+				AutoPrediction = true,
+			},
+			FOV = {
+				Enabled = true,
+				Size = 30,
+				Filled = false,
+				Thickness = 0.66,
+				Transparency = 0.9,
+				Color = Color3.fromRGB(255,255,255),
+			},
+		}
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x/main/Source", true))()
+	end)
+end
+coroutine.wrap(ANWVFU_fake_script)()
+local function WCAIX_fake_script() -- iy.LocalScript 
+	local script = Instance.new('LocalScript', iy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(WCAIX_fake_script)()
+local function IDLQWQ_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Main.Visible = not script.Parent.Parent.Main.Visible
+	end)
+end
+coroutine.wrap(IDLQWQ_fake_script)()
+
