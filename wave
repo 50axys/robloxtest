@@ -1,0 +1,151 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DropShadowHolder = Instance.new("Frame")
+local DropShadow = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local top = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIPadding = Instance.new("UIPadding")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+Main.Size = UDim2.new(0.330729157, 0, 0.351251155, 0)
+
+UICorner.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner.Parent = Main
+
+DropShadowHolder.Name = "DropShadowHolder"
+DropShadowHolder.Parent = Main
+DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderSizePixel = 0
+DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = DropShadowHolder
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 47, 1, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+UIAspectRatioConstraint.Parent = DropShadowHolder
+UIAspectRatioConstraint.AspectRatio = 1.675
+
+UIAspectRatioConstraint_2.Parent = Main
+UIAspectRatioConstraint_2.AspectRatio = 1.675
+
+top.Name = "top"
+top.Parent = Main
+top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+top.BackgroundTransparency = 1.000
+top.BorderColor3 = Color3.fromRGB(0, 0, 0)
+top.BorderSizePixel = 0
+top.Position = UDim2.new(0.00948419049, 0, 0, 0)
+top.Size = UDim2.new(0.973228335, 0, 0.16358839, 0)
+
+ImageLabel.Parent = top
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0.09983702, 0, 1, 0)
+ImageLabel.Image = "rbxassetid://13850781488"
+ImageLabel.ImageColor3 = Color3.fromRGB(71, 181, 255)
+
+UIAspectRatioConstraint_3.Parent = ImageLabel
+UIAspectRatioConstraint_3.AspectRatio = 0.995
+
+TextLabel.Parent = top
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.117502555, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.176217288, 0, 1, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Wave"
+TextLabel.TextColor3 = Color3.fromRGB(71, 181, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 50.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding.Parent = TextLabel
+UIPadding.PaddingBottom = UDim.new(0.0967741907, 0)
+UIPadding.PaddingTop = UDim.new(0.0967741907, 0)
+
+UIAspectRatioConstraint_4.Parent = TextLabel
+UIAspectRatioConstraint_4.AspectRatio = 1.756
+
+ImageLabel_2.Parent = top
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.80678916, 0, 0.123818673, 0)
+ImageLabel_2.Size = UDim2.new(0.0551592521, 0, 0.73102051, 0)
+ImageLabel_2.Image = "rbxassetid://13868273034"
+
+UIAspectRatioConstraint_5.Parent = ImageLabel_2
+UIAspectRatioConstraint_5.AspectRatio = 0.752
+
+ImageLabel_3.Parent = top
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.871513903, 0, 0.236722395, 0)
+ImageLabel_3.Size = UDim2.new(0.0493411571, 0, 0.496119857, 0)
+ImageLabel_3.Image = "rbxassetid://13867975846"
+
+UIAspectRatioConstraint_6.Parent = ImageLabel_3
+UIAspectRatioConstraint_6.AspectRatio = 0.991
+
+ImageLabel_4.Parent = top
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.931384444, 0, 0.236722395, 0)
+ImageLabel_4.Size = UDim2.new(0.0493411571, 0, 0.496119857, 0)
+ImageLabel_4.Image = "rbxassetid://13846126055"
+
+UIAspectRatioConstraint_7.Parent = ImageLabel_4
+UIAspectRatioConstraint_7.AspectRatio = 0.991
+
+UIAspectRatioConstraint_8.Parent = top
+UIAspectRatioConstraint_8.AspectRatio = 9.968
